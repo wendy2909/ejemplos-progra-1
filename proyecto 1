@@ -1,0 +1,36 @@
+import sys
+import os.path
+import os
+print("1.Ingresar")
+opcion = int(input("Eliga Una opcion"))
+if opcion == 1:
+    datos = []
+    os.system('cls')
+    valido = input('----------Su carpeta es--------')
+    valido = input(os.path.isdir('C:\\Users\\Darsy\\Desktop\\otro\\Proyecto_Darsy_Wendy'))
+    valido = input('precione una tecla para continuar')
+    
+    os.system('cls')
+    valido = input('Los Archivos que contiene su carpeta son: ')
+    valido = input('Nombres Originales')
+    valido = input(os.listdir('C:\\Users\\Darsy\\Desktop\\otro\\Proyecto_Darsy_Wendy'))
+    valido = input('Precione una tecla para continuar')
+    os.system('cls')
+    valido = input('Nombres Nuevos')
+    archivo = ("Claroscuro.jpg")
+    nuevo_nombre = ('ejemplo1.jpg')
+    archivo1 = ("Puntillismo.jpg")
+    nuevo_nombre1 = ('imagen2.jpg')
+    archivo2 = ("Random.jpg")
+    nuevo_nombre2 = ('ejemplo3.jpg')
+    os.listdir('C:\\Users\\Darsy\\Desktop\\otro\\Proyecto_Darsy_Wendy')
+    ['imagen1.jpg']
+    os.rename(archivo, nuevo_nombre)
+    os.rename(archivo1, nuevo_nombre1)
+    os.rename(archivo2, nuevo_nombre2)
+    print('Nombre Original: ', archivo)
+    print('Nombre Nuevo: ', nuevo_nombre)
+    print('Nombre Original: ', archivo1)
+    print('Nombre Nuevo: ', nuevo_nombre1)
+    print('Nombre Original: ', archivo2)
+    print('Nombre Nuevo: ', nuevo_nombre2)
